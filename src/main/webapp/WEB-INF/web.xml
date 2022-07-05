@@ -46,4 +46,13 @@
       <servlet-name>s5</servlet-name>
        <url-pattern>/session</url-pattern>
   </servlet-mapping>
+  
+   <servlet>
+      <servlet-name>s6</servlet-name>
+      <servlet-class>com.hcl.ForwardReDirect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>s6</servlet-name>
+       <url-pattern>/fwdredirect</url-pattern>
+  </servlet-mapping>
 </web-app>
