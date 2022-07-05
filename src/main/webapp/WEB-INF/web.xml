@@ -37,4 +37,13 @@
       <servlet-name>s4</servlet-name>
        <url-pattern>/fourth</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>s5</servlet-name>
+      <servlet-class>com.hcl.SessionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>s5</servlet-name>
+       <url-pattern>/session</url-pattern>
+  </servlet-mapping>
 </web-app>
