@@ -1,0 +1,58 @@
+ 
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+      <servlet-name>s1</servlet-name>
+      <servlet-class>com.hcl.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>s1</servlet-name>
+       <url-pattern>/welcome</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+      <servlet-name>s2</servlet-name>
+      <servlet-class>com.hcl.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>s2</servlet-name>
+       <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>s3</servlet-name>
+      <servlet-class>com.hcl.ThirdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>s3</servlet-name>
+       <url-pattern>/third</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>s4</servlet-name>
+      <servlet-class>com.hcl.FourthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>s4</servlet-name>
+       <url-pattern>/fourth</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>s5</servlet-name>
+      <servlet-class>com.hcl.SessionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>s5</servlet-name>
+       <url-pattern>/session</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+      <servlet-name>s6</servlet-name>
+      <servlet-class>com.hcl.ForwardReDirect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>s6</servlet-name>
+       <url-pattern>/fwdredirect</url-pattern>
+  </servlet-mapping>
+</web-app>
